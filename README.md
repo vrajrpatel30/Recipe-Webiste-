@@ -1,7 +1,7 @@
 # Recipe-Webiste-
 
 
-                        # INTRODUCTION
+# INTRODUCTION
 It is a Recipe Organization Website proposal. This website can access the standalone
 package from any electronic device. The system helps in organizing the recipes on the website by
 selecting the course, main ingredients, cuisine, adding tags and giving a star rating. Like - you will
