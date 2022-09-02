@@ -15,27 +15,28 @@ Many people use it instead of cookbooks; however, keeping track of recipes sprea
 different websites can be time-consuming and difficult.
 
 
-#OBJECTIVES
+# OBJECTIVES
 a) Determining the design requirements to come you with a prototype for the identified module
 b) Developing an impeccable system to help recipe management in restaurants
 c) Create a website that will make recipe organization easier while also providing a satisfying
 format and design
 
 
-#BACKGROUND
+# BACKGROUND
 There is a wide range of recipe management website available, with custom applications costing
 significantly more. In my research, I concluded that a core set of features most websites offered
 when trying to market their platform is based on functionality, look, or share of the market. The list
 below shows the essential features.
 * Generating lists of grocery
 * Adjusting serving quantities
-Ø Advancement of the search
-Ø Email recipes
-Ø Nutrition info
-Ø Technical support
-Ø Type in recipes by hand
-Ø Printing recipes with or the cookbooks
-Ø Cutting and pasting from web
+* Advancement of the search
+* Email recipes
+* Nutrition info
+* Technical support
+* Type in recipes by hand
+* Printing recipes with or the cookbooks
+* Cutting and pasting from web
+
 While there are numerous recipe organization websites on the market, I could not locate the one
 that was engineered explicitly for food bloggers. Instead, they are majorly aimed at the average
 home cooks who wants to integrate a family recipe collection.
