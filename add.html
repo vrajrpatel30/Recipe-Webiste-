@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="index.css"/>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>Food Recipe</h2>
+    </div>
+    <div id="sidebar">
+        <a href="index.php">Home</a>
+        <a href="menu.php">Menu</a>
+        <a href="about.html">About</a>
+        <a href="search.php">Search</a>
+        <a href="contactus.html">Contact Us</a>
+    </div>
+    <div id="main">
+        <form method="post" action="add.php" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td>Recipe name</td>
+                    <td><input type="text" name="RecipeName" required></td>
+                </tr>
+                <tr>
+                    <td>Ingredients</td>
+                    <td><textarea name="Ingredients" required></textarea></td>
+                </tr>
+                <tr>
+                    <td>Preparation Time (in minutes)</td>
+                    <td><input type="text" name="PrepTimeInMins" required></td>
+                </tr>
+                <tr>
+                    <td>Cook Time (in minutes)</td>
+                    <td><input type="text" name="CookTimeInMins" required></td>
+                </tr>
+                <tr>
+                    <td>Servings</td>
+                    <td><input type="text" name="Servings"></td>
+                </tr>
+                <tr>
+                    <td>Course</td>
+                    <td><input type="text" name="Course"></td>
+                </tr>
+                <tr>
+                    <td>Cuisine</td>
+                    <td><input type="text" name="Cuisine"></td>
+                </tr>
+                <tr>
+                    <td>Instructions</td>
+                    <td><textarea name="Instructions" required></textarea></td>
+                </tr>
+                <tr>
+                    <td>Image</td>
+                    <td><input type="file" name="fileToUpload"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Add"></td>
+                </tr>
+            </table>
+        </form>
+        <button onClick="clearAddRecipeForm()">Reset</button>
+    </div>
+    <script>window.location="add.php";</script>
+</body>
+</html>
