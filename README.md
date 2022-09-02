@@ -16,9 +16,9 @@ different websites can be time-consuming and difficult.
 
 
 # OBJECTIVES
-a) Determining the design requirements to come you with a prototype for the identified module
-b) Developing an impeccable system to help recipe management in restaurants
-c) Create a website that will make recipe organization easier while also providing a satisfying
+* Determining the design requirements to come you with a prototype for the identified module
+* Developing an impeccable system to help recipe management in restaurants
+* Create a website that will make recipe organization easier while also providing a satisfying
 format and design
 
 
